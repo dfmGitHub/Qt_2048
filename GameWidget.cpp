@@ -48,7 +48,6 @@ void GameWidget::mousePressEvent(QMouseEvent *e)
 {
     // 获取起点坐标
     startPos = e->pos();
-    emit ScoreInc(-3);
 }
 
 void GameWidget::mouseReleaseEvent(QMouseEvent *e)
